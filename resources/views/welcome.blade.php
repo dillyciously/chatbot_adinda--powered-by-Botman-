@@ -68,6 +68,7 @@
 var botmanWidget = {
     frameEndpoint: '/botman/chat',
     title: "ADINDA",
+    bubbleAvatarUrl: "/logo.png",
     introMessage: "Selamat datang, saya ADINDA - Asisten Digital Aset Anda",
     aboutLink: "https://bpad.jakarta.go.id",
     aboutText: "BPAD Provinsi DKI Jakarta"
