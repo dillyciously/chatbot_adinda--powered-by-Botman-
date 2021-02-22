@@ -8,6 +8,6 @@ $botman->hears('hai', function ($bot) {
 
 $botman->fallback(function($bot) {
     $bot->reply('Maaf, saya tidak memahami perintah anda.');
-    $bot->reply('Silahkan ketik "dinda" (tanpa tanda kutip) untuk memulai percakapan');
+    $bot->reply('Silahkan ketik /dinda untuk memulai percakapan');
 });
 $botman->hears('dinda', BotManController::class.'@startConversation');
